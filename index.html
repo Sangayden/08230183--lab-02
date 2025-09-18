@@ -1,47 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Sangay Choden - Portfolio</title>
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-  <!-- Profile Section -->
+  <!-- Header with Profile Picture -->
   <header>
-    <img src="images/profile.jpg" alt="Sangay Choden" width="180" style="border-radius: 50%;">
+    <img src="images/pic.jpg" alt="Sangay Choden" class="profile-pic" />
     <h1>Sangay Choden</h1>
-    <p><em>Passionate Student of IT</em></p>
+    <p class="tagline">Passionate Student of IT</p>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#education">Education</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
   </header>
 
   <!-- About Me -->
-  <section>
+  <section id="about">
     <h2>About Me</h2>
     <p>
-      I am a passionate IT student with a strong passion for software development and creating innovative solutions. 
+      I am a passionate IT student with a strong interest in software development and creating innovative solutions. 
       I enjoy learning new technologies and working on projects that challenge my skills and creativity.
     </p>
   </section>
 
   <!-- Education -->
-  <section>
+  <section id="education">
     <h2>Education</h2>
     <ul>
-      <li>High School: Pashikha Central School, Chhukha Dzongkhag (2017 – 2022)</li>
-      <li>College: Samtse College of Education, 2023 – Present (B.Ed IT)</li>
+      <li><strong>High School:</strong> Pashikha Central School, Chhukha Dzongkhag (2017 – 2022)</li>
+      <li><strong>College:</strong> Samtse College of Education (2023 – Present) - B.Ed IT</li>
     </ul>
   </section>
 
   <!-- Skills -->
-  <section>
+  <section id="skills">
     <h2>Skills</h2>
-    <h3>Technical Skills:</h3>
+    <h3>Technical Skills</h3>
     <ul>
       <li>Programming fundamentals</li>
       <li>Basic web development (HTML, CSS)</li>
       <li>Microsoft Office Suite</li>
     </ul>
-    <h3>Soft Skills:</h3>
+
+    <h3>Soft Skills</h3>
     <ul>
       <li>Strong passion for learning</li>
       <li>Problem-solving</li>
@@ -51,19 +59,25 @@
   </section>
 
   <!-- Projects -->
-  <section>
+  <section id="projects">
     <h2>Projects Showcase</h2>
-    <p><strong>Project 1:</strong> Simple Calculator</p>
-    <p>Created a basic calculator using Python that can perform addition, subtraction, multiplication, and division.</p>
-    
-    <p><strong>Project 2:</strong> Personal Portfolio Website (In Progress)</p>
-    <p>Building a responsive portfolio website to showcase my skills, education, and projects using HTML, CSS, and basic JavaScript.</p>
+
+    <div class="project">
+      <h3>Project 1: Simple Calculator</h3>
+      <p>Created a basic calculator using Python that can perform addition, subtraction, multiplication, and division.</p>
+    </div>
+
+    <div class="project">
+      <h3>Project 2: Personal Portfolio Website (In Progress)</h3>
+      <p>Building a responsive portfolio website to showcase my skills, education, and projects using HTML, CSS, and basic JavaScript.</p>
+    </div>
   </section>
 
   <!-- Contact -->
-  <footer>
+  <footer id="contact">
     <h2>Contact</h2>
     <p>Email: <a href="mailto:sangaychoden958@gmail.com">sangaychoden958@gmail.com</a></p>
+    <p>&copy; 2025 Sangay Choden. All rights reserved.</p>
   </footer>
 </body>
 </html>
