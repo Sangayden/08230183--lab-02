@@ -1,3 +1,8 @@
+/* Hidden class for sections */
+.hidden {
+  display: none;
+}
+
 /* Reset some default styles */
 * {
   margin: 0;
@@ -41,16 +46,20 @@ nav {
 }
 
 nav a {
-  color: #007acc;
-  text-decoration: none;
-  margin: 0 15px;
+  color: white;                  /* Visible link color */
+  background-color: #005f99;     /* Subtle button-like background */
+  padding: 8px 12px;
+  margin: 0 10px;
   font-weight: 600;
-  transition: color 0.3s ease;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: all 0.3s ease;
 }
 
 nav a:hover {
-  color: #005f99;
-  text-decoration: underline;
+  color: #007acc;                /* Text color on hover */
+  background-color: #ffffff;     /* Background turns white on hover */
+  border: 1px solid #007acc;
 }
 
 /* Sections */
